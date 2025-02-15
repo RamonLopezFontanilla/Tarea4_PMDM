@@ -36,7 +36,7 @@ public class WorldsFragment extends Fragment {
         recyclerView = binding.recyclerViewWorlds;
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         worldsList = new ArrayList<>();
-        adapter = new WorldsAdapter(worldsList);
+        adapter = new WorldsAdapter(getContext(),worldsList);
         recyclerView.setAdapter(adapter);
 
         loadWorlds();

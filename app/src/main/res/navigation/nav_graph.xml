@@ -22,4 +22,11 @@
         android:name="dam.pmdm.spyrothedragon.ui.CollectiblesFragment"
         android:label="@string/collectibles"
         tools:layout="@layout/fragment_collectibles" />
+
+    <fragment
+        android:id="@+id/navigation_paint"
+        android:name="dam.pmdm.spyrothedragon.ui.PaintFragment"
+        android:label="Animación"
+        tools:layout="@layout/fragment_paint" />
+
 </navigation>

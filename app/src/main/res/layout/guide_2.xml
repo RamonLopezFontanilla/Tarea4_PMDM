@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/guideLayout2"
+    style="@style/layout_guide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/pulse_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="-80dp"
+        android:scaleX="0"
+        android:scaleY="0"
+        android:src="@drawable/pulse" />
+
+    <ImageView
+        android:id="@+id/bocadillo_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="180dp"
+        android:scaleX="0"
+        android:scaleY="0"
+        android:src="@drawable/bocadillo" />
+
+    <ImageView
+        android:id="@+id/flecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="150dp"
+        android:rotation="120"
+        android:scaleX="0"
+        android:src="@drawable/flecha1" />
+
+    <TextView
+        android:id="@+id/bocadillo_text"
+        style="text_bocadillo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginBottom="230dp"
+        android:alpha="0"
+        android:layout_gravity="bottom"
+        android:gravity="bottom|center"
+        android:text="@string/guia_texto_bocadillo_personajes"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/next_step"
+        style="@style/button_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="20dp"
+        android:rotation="180"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/exit_guide"
+        style="@style/button_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="-80dp"
+        android:layout_marginRight="20dp"
+        android:rotation="180" />
+
+</FrameLayout>

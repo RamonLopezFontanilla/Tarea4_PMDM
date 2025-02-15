@@ -4,6 +4,32 @@
     <string name="characters">Personajes</string>
     <string name="collectibles">Coleccionables</string>
     <string name="title_about">Acerca de</string>
-    <string name="text_about">Aplicación desarrollada por \n <b>Lindsay Barrero Martínez.</b></string>
+    <string name="text_about">Aplicación desarrollada por \n <b>Ramón López Fontanilla.</b></string>
     <string name="accept">Aceptar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="guia_bienvenido">BIENVENIDO</string>
+    <string name="guia_primer_texto_intro">Prepárate para explorar el mundo mágico de esta aplicación inspirada en</string>
+    <string name="guia_Segundo_texto_intro">Aquí aprenderás a navegar por pestañas llenas de dragones, mundos fascinantes y montones de tesoros brillantes.</string>
+    <string name="guia_tercer_texto_intro">¿Listo para empezar?</string>
+    <string name="guia_cuarto_texto_intro">Pulsa \'Comenzar\' y deja que Spyro te lleve volando a través de esta guía interactiva.</string>
+    <string name="guia_boton_comenzar_intro">COMENZAR</string>
+    <string name="guia_texto_bocadillo_personajes">Aquí podrás explorar a todos los personajes del fantástico mundo de Spyro.</string>
+    <string name="guia_texto_bocadillo_mundos">En este apartado podrás descubrir los distintos escenarios disponibles.</string>
+    <string name="guia_texto_bocadillo_coleccionables">Y haciendo clic aquí se mostrarán los coleccionables de Spyro.</string>
+    <string name="guia_texto1_bocadillo_info">Aquí puedes obtener información del desarrollayor de la App.</string>
+    <string name="guia_texto2_bocadillo_info">Dale ya, ¿a qué espeas?</string>
+    <string name="guia_titulo_resumen">Resumen</string>
+    <string name="guia_texto1_resumen">Paso 1: Bienvenida</string>
+    <string name="guia_texto2_resumen">Paso 2: Personajes</string>
+    <string name="guia_texto3_resumen">Paso 3: Mundos</string>
+    <string name="guia_texto4_resumen">Paso 4: Coleccionables</string>
+    <string name="guia_texto5_resumen">Paso 5: Menú información</string>
+    <string name="guia_texto6_resumen">Paso 6: Resumen</string>
+    <string name="guia_boton_cerrar_resumen">CERRAR</string>
+    <string name="guia_texto_activada">Mostrar Guía Activada</string>
+    <string name="needtostartguide">needToStartGuide</string>
+    <string name="txt_spyro">Spyro</string>
+    <string name="txt_gemas">Gemas</string>
+    <string name="txt_destello">Destello</string>
 </resources>

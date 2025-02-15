@@ -1,5 +1,6 @@
 package dam.pmdm.spyrothedragon.adapters;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,15 +11,18 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import dam.pmdm.spyrothedragon.MainActivity;
 import dam.pmdm.spyrothedragon.R;
 import dam.pmdm.spyrothedragon.models.World;
 
 public class WorldsAdapter extends RecyclerView.Adapter<WorldsAdapter.WorldsViewHolder> {
 
     private List<World> list;
+    private Context context;
 
-    public WorldsAdapter(List<World> worldsList) {
+    public WorldsAdapter(Context context,List<World> worldsList) {
         this.list = worldsList;
+        this.context=context;
     }
 
     @Override
@@ -35,6 +39,12 @@ public class WorldsAdapter extends RecyclerView.Adapter<WorldsAdapter.WorldsView
         // Cargar la imagen (simulado con un recurso drawable)
         int imageResId = holder.itemView.getContext().getResources().getIdentifier(world.getImage(), "drawable", holder.itemView.getContext().getPackageName());
         holder.imageImageView.setImageResource(imageResId);
+
+        holder.imageImageView.setOnClickListener(v -> {
+            if (world.getName().equals(context.getString(R.string.txt_destello))) {
+                ((MainActivity)context).activateGuide(true);
+            }
+        });
     }
 
     @Override
